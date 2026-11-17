@@ -1,0 +1,97 @@
+{
+  "rutas": [
+    {
+      "id": 1,
+      "nombre": "Sendero Cerro Ñielol",
+      "imagen": "img/nielol.svg",
+      "alt": "Vista del sendero boscoso en el Cerro Ñielol",
+      "distanciaKm": 4.5,
+      "dificultad": "media",
+      "accesible": false,
+      "descripcion": "Un recorrido por el bosque nativo del Cerro Ñielol, con miradores hacia la ciudad de Temuco y abundante vegetación nativa. Ideal para amantes del trekking y la observación de aves."
+    },
+    {
+      "id": 2,
+      "nombre": "Ribera del Río Cautín",
+      "imagen": "img/rio-cautin.svg",
+      "alt": "Paseo peatonal junto al Río Cautín",
+      "distanciaKm": 2.0,
+      "dificultad": "baja",
+      "accesible": true,
+      "descripcion": "Camino plano y pavimentado que bordea el Río Cautín. Apto para sillas de ruedas, coches y bicicletas. Perfecto para paseos familiares y actividad física ligera."
+    },
+    {
+      "id": 3,
+      "nombre": "Mirador Volcán Villarrica",
+      "imagen": "img/llaima.svg",
+      "alt": "Panorámica del Volcán Villarrica desde un mirador",
+      "distanciaKm": 8.2,
+      "dificultad": "alta",
+      "accesible": false,
+      "descripcion": "Ruta exigente de ascenso con pendientes pronunciadas y terreno irregular. Recompensa con vistas espectaculares del Volcán Villarrica y los lagos de la zona. Se recomienda experiencia previa en montaña."
+    },
+    {
+      "id": 4,
+      "nombre": "Parque Nacional Conguillío",
+      "imagen": "img/llaima.svg",
+      "alt": "Araucarias y laguna en el Parque Nacional Conguillío",
+      "distanciaKm": 6.0,
+      "dificultad": "media",
+      "accesible": false,
+      "descripcion": "Ruta escénica entre araucarias milenarias y lagunas de origen volcánico. Un paisaje único que combina bosque nativo, coladas de lava y vistas al Volcán Llaima. Ideal para fotografía y educación ambiental."
+    },
+    {
+      "id": 5,
+      "nombre": "Costanera Lago Villarrica",
+      "imagen": "img/captren.svg",
+      "alt": "Paseo costero junto al Lago Villarrica",
+      "distanciaKm": 3.2,
+      "dificultad": "baja",
+      "accesible": true,
+      "descripcion": "Paseo llano y accesible a orillas del Lago Villarrica, con sectores de descanso, miradores y áreas verdes. Apto para toda la familia, incluidas personas con movilidad reducida."
+    }
+  ],
+  "emprendimientos": [
+    {
+      "id": 1,
+      "nombre": "Café del Bosque",
+      "rubro": "Gastronomía",
+      "comuna": "Temuco"
+    },
+    {
+      "id": 2,
+      "nombre": "Artesanías Rayen",
+      "rubro": "Artesanía",
+      "comuna": "Padre Las Casas"
+    },
+    {
+      "id": 3,
+      "nombre": "EcoTour Aventura",
+      "rubro": "Turismo",
+      "comuna": "Villarrica"
+    }
+  ],
+  "resenas": [
+    {
+      "id": 1,
+      "rutaId": 1,
+      "autor": "María González",
+      "nota": 5,
+      "comentario": "Excelente sendero, muy bien señalizado y con vistas hermosas. La vegetación nativa es impresionante. Volvería sin dudarlo."
+    },
+    {
+      "id": 2,
+      "rutaId": 2,
+      "autor": "Pedro Ramírez",
+      "nota": 4,
+      "comentario": "Muy cómodo para caminar con niños y con silla de ruedas. Le falta un poco más de sombra en algunos tramos, pero en general muy recomendable."
+    },
+    {
+      "id": 3,
+      "rutaId": 3,
+      "autor": "Camila Torres",
+      "nota": 5,
+      "comentario": "Ruta desafiante pero valió totalmente la pena. Las vistas del volcán son espectaculares. Recomiendo llevar bastones y suficiente agua."
+    }
+  ]
+}
